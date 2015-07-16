@@ -1,0 +1,105 @@
+@mixin border-radius($radius) {
+
+  -webkit-border-radius: $radius !important;
+  -moz-border-radius: $radius !important;
+  -ms-border-radius: $radius !important;
+  border-radius: $radius !important;
+
+}
+
+@mixin box-shadow($shadow: none) {
+
+  -moz-box-shadow: $shadow !important;
+  -webkit-box-shadow: $shadow !important;
+  -o-box-shadow: $shadow !important;
+  -ms-box-shadow: $shadow !important;
+  box-shadow: $shadow !important;
+
+}
+
+@mixin placeholder-color($color: #ffffff) {
+
+  &::-webkit-input-placeholder {
+    opacity: 0.5;
+    color: $color;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    color: $color;
+    opacity: 0.5;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    color: $color;
+    opacity: 0.5;
+  }
+
+  &:-ms-input-placeholder {
+    color: $color;
+    opacity: 0.5;
+  }
+
+}
+
+@mixin placeholder-size($size: 1em) {
+
+  &::-webkit-input-placeholder {
+    font-size: $size;
+  }
+
+  &:-moz-placeholder {
+    /* Firefox 18- */
+    font-size: $size;
+  }
+
+  &::-moz-placeholder {
+    /* Firefox 19+ */
+    font-size: $size;
+  }
+
+  &:-ms-input-placeholder {
+    font-size: $size;
+  }
+
+}
+
+@mixin transition($transition-time: 200ms, $ease-type: cubic-bezier(.63,.01,.81,.58)) {
+
+  transition: all $transition-time $ease-type;
+  -webkit-transition: all $transition-time $ease-type;
+  -o-transition: all $transition-time $ease-type;
+  -moz-transition: all $transition-time $ease-type;
+
+}
+
+@mixin debug($debug-border: 1px, $debug-thickness: solid, $debug-color: magenta) {
+
+  border: $debug-border $debug-thickness $debug-color;
+
+}
+
+@mixin up-arrow() {
+
+  &:before {
+    position: absolute;
+    top: -24px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 20px 24px 20px;
+    border-color: transparent transparent #ffffff transparent;
+    content: "";
+  }
+
+}
+
+@mixin text-overflow() {
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+}
