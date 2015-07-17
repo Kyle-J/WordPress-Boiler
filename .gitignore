@@ -1,0 +1,10 @@
+.idea
+*.htaccess*
+.htpasswd
+
+# Module Stuff
+node_modules
+vendor
+
+# Word Press Stuff
+public_html/wp-content/uploads
