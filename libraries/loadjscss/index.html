@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en_US">
+<head>
+    <meta charset="utf-8">
+    <title>LoadJSCSS Test</title>
+    <script type="application/javascript" src="loadjscss.min.js"></script>
+    <script>
+        loadcss('http://cdn.sstatic.net/stackoverflow/all.css?v=3111ce3d4bb4', 'stackCssId', "screen", function () {
+            alert('Hi after loading css');
+        });
+        loadcss("http://www.google.com/css/maia.css", 'stackCssId'); /*It will not be loaded, as file exists with this id*/
+    </script>
+</head>
+<body class="question-page new-topbar">
+<div class="container">
+    <div id="header">
+        <br class="cbt">
+        <div id="hlogo">
+            <a href="/">
+                Stack Overflow
+            </a>
+        </div>
+        <div id="hmenus">
+            <div class="nav mainnavs">
+                <ul>
+                    <li class="youarehere"><a id="nav-questions" href="/questions">Questions</a></li>
+                    <li><a id="nav-tags" href="/tags">Tags</a></li>
+                    <li><a id="nav-users" href="/users">Users</a></li>
+                    <li><a id="nav-badges" href="/help/badges">Badges</a></li>
+                    <li><a id="nav-unanswered" href="/unanswered">Unanswered</a></li>
+                </ul>
+            </div>
+            <div class="nav askquestion">
+                <ul>
+                    <li>
+                        <a id="nav-askquestion"  href="/questions/ask">Ask Question</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    function callback() {
+        alert('Hi after loading javascript');
+    }
+    loadjs("test.js", "firstJsId", function () {
+        alert('Hi after loading javascript');
+    });
+</script>
+</body>
+</html>

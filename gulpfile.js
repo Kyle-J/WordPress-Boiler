@@ -18,6 +18,8 @@ var pngquant = require('imagemin-pngquant');
 
 var template_path = "./public_html/wp-content/themes/bootstrap/"
 
+var libraries_location = "./libraries"
+
 var scss_location = template_path + "scss";
 var stylesheets_location = template_path + "stylesheets";
 var scripts_location = template_path + "javascript";
@@ -40,6 +42,18 @@ gulp.task('coffee', function() {
 
 });
 
+gulp.task('loader', function(){
+
+    return gulp.src([libraries_location+'/loadjscss/loadjscss.js'])
+        .pipe(concat('loader.js'))
+        .pipe(rename({suffix: '.min'}))
+        .pipe(uglify())
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest(scripts_location + '/min'))
+        .pipe(notify({ message: 'Loader scripts task complete' }));
+
+})
+
 gulp.task('scripts', function() {
 
     return gulp.src([
@@ -51,18 +65,12 @@ gulp.task('scripts', function() {
 
     ])
 
-        //.pipe(jshint(scripts_location+'/.jshintrc'))
-        //.pipe(jshint.reporter('default'))
-
         .pipe(concat('main.js'))
-
-        //.pipe(gulp.dest(scripts_location))
-
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(scripts_location + '/min'))
-        .pipe(notify({ message: 'Scripts task complete' }));
+        .pipe(notify({ message: 'Main script task complete' }));
 
 });
 

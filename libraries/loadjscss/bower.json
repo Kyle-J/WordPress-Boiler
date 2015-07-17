@@ -1,0 +1,24 @@
+{
+    "name": "loadjscss",
+    "description": "Small utility functions to load css and javascript files dynamically/asynchronously",
+    "version": "1.0.1",
+    "main": "loadjscss.js",
+    "keywords": [
+        "load css", "load js", "loadcss", "loadjs", "loadjscss", "loadcssjs"
+    ],
+    "authors": [
+        "Shafiul", "Shafiul <sustbird@gmail.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sustbird/loadjscss.git"
+    },
+    "ignore": [
+        ".jshintrc",
+        "**/*.txt"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
