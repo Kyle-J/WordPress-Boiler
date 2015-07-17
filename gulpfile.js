@@ -5,6 +5,8 @@ var rename = require('gulp-rename');
 var gutil = require( 'gulp-util' );
 var minify_css = require('gulp-minify-css');
 
+var jquery = require('gulp-jquery');
+
 var jshint = require('gulp-jshint');
 var uglify = require('gulp-uglify');
 var notify = require('gulp-notify');
@@ -14,7 +16,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var imagemin = require('gulp-imagemin');
 var pngquant = require('imagemin-pngquant');
 
-var template_path = "./public_html/wp-content/themes/ladram/"
+var template_path = "./public_html/wp-content/themes/bootstrap/"
 
 var scss_location = template_path + "scss";
 var stylesheets_location = template_path + "stylesheets";
@@ -40,7 +42,14 @@ gulp.task('coffee', function() {
 
 gulp.task('scripts', function() {
 
-    return gulp.src([scripts_location+'/toolkit.js', scripts_location+'/*.js'])
+    return gulp.src([
+
+        scripts_location+'/vendor/bootstrap.js',
+        scripts_location+'/toolkit.js',
+        scripts_location+'/*.js',
+        scripts_location+'/vendor/*.js'
+
+    ])
 
         //.pipe(jshint(scripts_location+'/.jshintrc'))
         //.pipe(jshint.reporter('default'))
@@ -91,6 +100,8 @@ gulp.task('images', function() {
 });
 
 gulp.task('sass:watch', function () {
+
     gulp.watch(scss_location,'/theme.scss', ['sass']);
     gulp.watch(scss_location,'/print.scss', ['sass']);
+
 });

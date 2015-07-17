@@ -2,90 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40976de9-8dd6-4e70-8b75-4fa5aea73f5b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/.yeopress" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/404.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/archive.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/author-bio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/comments.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/content-link.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/content-none.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/content-page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/content-search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/content.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/css/editor-style.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/css/ie.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/css/ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/footer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/genericons/COPYING.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/genericons/Genericons.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/genericons/Genericons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/genericons/Genericons.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/genericons/Genericons.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/genericons/LICENSE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/genericons/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/genericons/genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/inc/customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/js/color-scheme-control.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/js/customize-preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/js/functions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/js/html5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/js/keyboard-image-navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/languages/twentyfifteen.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/page.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/screenshot.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/search.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/sidebar.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/single.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/twentyfifteen/style.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-config.php" afterPath="$PROJECT_DIR$/public_html/wp-config.php.off" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/.gitignore" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/comments.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/comments.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/css/bootstrap.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/footer.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/footer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/functions.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/header.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/header.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/index.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/js/bootstrap.js" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/bootstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/js/toolkit.js" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/toolkit.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/readme.md" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/branding.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/branding.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/document.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/document.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/elements.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/elements.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/footer.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/footer.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/forms.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/header.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/header.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/homepage.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/homepage.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/mixins.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/mobile.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/mobile.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/offcanvas.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/offcanvas.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/pages.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/pages.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/posts.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/posts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/theme.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/theme.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/typography.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/typography.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/style.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/style.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/ladram/stylesheets/theme.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/stylesheets/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/vendor/jquery.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/min/main.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/requires.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/bootstrap.js" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/vendor/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/toolkit.js" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/toolkit.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/footer.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ladram.co.uk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -107,11 +33,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32865906">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.57298774">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,12 +61,14 @@
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/mixins.scss" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/ladram/footer.php" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss/theme.scss" />
-        <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/ladram/stylesheets/theme.css" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/ladram/header.php" />
         <option value="$PROJECT_DIR$/public_html/wp-config.php" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/ladram/style.css" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/footer.php" />
+        <option value="$PROJECT_DIR$/gulpfile.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -161,8 +89,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1210" />
-    <option name="y" value="148" />
+    <option name="x" value="473" />
+    <option name="y" value="123" />
     <option name="width" value="1298" />
     <option name="height" value="1213" />
   </component>
@@ -189,6 +117,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -203,7 +132,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ladram.co.uk" />
+              <option name="myItemId" value="wordpressboiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,7 +142,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ladram.co.uk" />
+              <option name="myItemId" value="wordpressboiler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -221,9 +150,74 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ladram.co.uk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpressboiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ladram.co.uk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpressboiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ladram.co.uk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpressboiler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public_html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -236,6 +230,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/public_html/wp-content/themes/ladram/js" />
       <recent name="$PROJECT_DIR$/public_html/wp-content/themes/ladram/scss" />
@@ -287,31 +282,31 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1210" y="148" width="1298" height="1213" extended-state="0" />
-    <editor active="false" />
+    <frame x="473" y="123" width="1298" height="1213" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Atlassian " active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3219178" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3089172" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31369427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -337,16 +332,18 @@
     </option>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-          <folding>
-            <marker date="1437066136000" expanded="false" signature="-1:-1" placeholder=" The base configurations of the WordPress. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" Authentication Unique Keys and Salts. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" WordPress Database Table prefix. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" For developers: WordPress debugging mode. ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -354,12 +351,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="34" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
-          <folding>
-            <marker date="1437066136000" expanded="false" signature="-1:-1" placeholder=" The base configurations of the WordPress. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" Authentication Unique Keys and Salts. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" WordPress Database Table prefix. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" For developers: WordPress debugging mode. ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -374,13 +365,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13366337">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -545,27 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/bootstrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13636364">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33203125">
@@ -591,24 +554,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29220778">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1437066136000" expanded="false" signature="-1:-1" placeholder=" The base configurations of the WordPress. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" Authentication Unique Keys and Salts. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" WordPress Database Table prefix. ..." />
-            <marker date="1437066136000" expanded="true" signature="-1:-1" placeholder=" For developers: WordPress debugging mode. ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64285713">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <marker date="1435936930000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;renshawbaking.dev&quot;...}" />
-            <marker date="1435936930000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435936930000" expanded="true" signature="-1:-1" placeholder="{&quot;del&quot;: &quot;^1.1.1&quot;...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,7 +561,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -632,50 +576,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="52" selection-start-line="0" selection-start-column="52" selection-end-line="0" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/js/toolkit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.051369864">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="19" />
-          <folding>
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{&quot;interval&quot;: 300...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="/** Determines default interval between firing 'changed' method ...*/" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="/** Breakpoint aliases ...*/" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="/** Used to calculate intervals between consecutive function executions ...*/" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="/** Returns true if current breakpoint matches passed alias ...*/" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="/** Returns current breakpoint alias ...*/" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="/*...*/" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1435832853000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5376712">
-          <caret line="65" column="33" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
-          <folding>
-            <marker date="1436979146000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1436979146000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1436979146000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1436979146000" expanded="true" signature="-1:-1" placeholder="//..." />
-            <marker date="1436979146000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1436979146000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1436979146000" expanded="true" signature="-1:-1" placeholder="{&quot;progressive&quot;: true...}" />
-            <marker date="1436979146000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -683,7 +583,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17090271">
           <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -691,26 +590,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38527396">
           <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1437067484000" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32865906">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.4623656">
+          <caret line="46" column="53" selection-start-line="46" selection-start-column="53" selection-end-line="46" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/min/main.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34946236">
+          <caret line="0" column="2800" selection-start-line="0" selection-start-column="2800" selection-end-line="0" selection-end-column="2800" />
+          <folding>
+            <marker date="1437142328000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437142328000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437142328000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437142328000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437142328000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437142328000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14324693">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9603699">
+          <caret line="106" column="3" selection-start-line="106" selection-start-column="3" selection-end-line="106" selection-end-column="3" />
+          <folding>
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="//..." />
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="{&quot;progressive&quot;: true...}" />
+            <marker date="1437143627000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57298774">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>

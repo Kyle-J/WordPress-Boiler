@@ -1,8 +1,8 @@
 <?php wp_footer(); ?>
 </div>
 
-<script src="http://code.jquery.com/jquery.js"></script>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery.js"></script>
+<script src="/wp-content/themes/bootstrap/javascript/min/main.min.js"></script>
 
 </body>
 </html>
