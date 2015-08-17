@@ -19,13 +19,13 @@
 define('DB_NAME', 'boilderplate');
 
 /** MySQL database username */
-define('DB_USER', 'organic');
+define('DB_USER', '');
 
 /** MySQL database password */
-define('DB_PASSWORD', '%rGanic365');
+define('DB_PASSWORD', '');
 
 /** MySQL hostname */
-define('DB_HOST', '192.168.0.15');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');
