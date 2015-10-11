@@ -35,18 +35,11 @@
             <div class="brand-header row">
                 <div class="col-md-4 col-sm-2 col-xs-10">
                     <div class="navbar-brand">
-                        <div class="col-xs-8">
-                            <div class="pull-left brand-logo">
+                            <div class="brand-logo">
                                 <a rel="home" href="/" title="Navigate to homepage">
                                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/logos/identity_x1.png" class="img-responsive">
                                 </a>
                             </div>
-                        </div>
-<!--                        <div class="col-xs-8 no-padding">-->
-<!--                            <div class="pull-left">-->
-<!--                                <a class="hidden-sm brand-text" rel="home" href="/" title="Navigate to homepage">WordPress Boilerplate</a>-->
-<!--                            </div>-->
-<!--                        </div>-->
                     </div>
                 </div>
                 <div class="visible-xs col-xs-2 top-25">
@@ -64,10 +57,10 @@
                         <div class="input-group">
                             <label class="sr-only" for="search-term">Enter search term</label>
                             <input type="text" class="form-control" placeholder="Search" value="<?php echo get_search_query() ?>" name="s" id="s">
-                                <span class="input-group-btn">
-                                    <label class="sr-only" for="submit">Press to search</label>
-                                    <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search glyphicon-white"></i></button>
-                                </span>
+                            <span class="input-group-btn">
+                                <label class="sr-only" for="submit">Press to search</label>
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search glyphicon-white"></i></button>
+                            </span>
                         </div>
                     </form>
                 </div>
