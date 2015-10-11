@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,400italic,600,700,600italic,700italic,800,800italic");
+
+$primary-font-family:   'Montserrat', sans-serif;
+$secondary-font-family: 'Open Sans',  sans-serif;
+
+
+body {
+  font-size: 16px;
+  font-family: $primary-font-family;
+}
+
+h1 {
+  color: $brandColor-5;
+  font-size: 2.5em;
+  font-weight: 600;
+  line-height: 1.2em;
+  margin: 20px 0;
+  font-family: $secondary-font-family;
+  font-style: italic;
+
+  &.white {
+    color: $white;
+  }
+
+  &.boost-small {
+    font-size: 3em;
+    line-height: 1.3em;
+  }
+
+  &.boost {
+    font-size: 3.25em;
+    line-height: 1.3em;
+  }
+
+  &.calm {
+    font-size: 1.8em;
+  }
+
+  &.no-margin {
+    margin: 0;
+  }
+
+  &.half-margin {
+    margin: 10px 0;
+  }
+
+}
+
+h2 {
+  color: $brandColor-5;
+  font-size: 2.25em;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 20px 0;
+  font-family: $secondary-font-family;
+  font-style: italic;
+
+  &.white {
+    color: $white;
+  }
+
+  &.x-boost {
+    font-size: 2.75em;
+  }
+
+  &.boost {
+    font-size: 2.5em;
+  }
+
+  &.calm {
+    font-size: 1.8em;
+  }
+
+  &.no-margin {
+    margin: 0;
+  }
+
+  &.half-margin {
+    margin: 10px 0;
+  }
+}
+
+h3 {
+  color: $brandColor-5;
+  font-size: 1.3em;
+  font-weight: 600;
+  line-height: 120%;
+  margin: 20px 0;
+  font-family: $secondary-font-family;
+  font-style: italic;
+
+  &.white {
+    color: $white;
+  }
+
+  &.boost {
+    font-size: 2em;
+  }
+
+  &.calm {
+    font-size: 1.1em;
+  }
+
+  &.no-margin {
+    margin: 0;
+  }
+
+  &.half-margin {
+    margin: 10px 0;
+  }
+}
+
+h4 {
+  color: $brandColor-5;
+  font-size: 120%;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 20px 0;
+  font-family: $secondary-font-family;
+  font-style: italic;
+
+  &.white {
+    color: $white;
+  }
+
+  &.no-margin {
+    margin: 0;
+  }
+}
+
+h5 {
+  color: $brandColor-5;
+  font-size: 110%;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 20px 0;
+  font-family: $secondary-font-family;
+  font-style: italic;
+
+  &.white {
+    color: $white;
+  }
+
+  &.no-margin {
+    margin: 0;
+  }
+}
+
+h6 {
+  color: $brandColor-5;
+  font-size: 100%;
+  font-weight: 700;
+  line-height: 120%;
+  margin: 20px 0;
+  font-family: $secondary-font-family;
+  font-style: italic;
+
+  &.white {
+    color: $white;
+  }
+
+  &.no-margin {
+    margin: 0;
+  }
+}
+
+p, li {
+  font-size: 1em;
+  color: $brandColor-3;
+  line-height: 150%;
+  margin-bottom: 1.1em;
+
+  &.white {
+    color: $white;
+  }
+}
+
+li {
+  margin-bottom: 0.2em;
+}
+
+ul, ol {
+  margin-left: 0px !important;
+}
+
+a {
+  color: $cta-color;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($cta-color, 20);
+  }
+}
+
+blockquote {
+  padding: 1em;
+  font-size: 1.1em;
+  line-height: 150%;
+  color: $brandColor-3;
+  background: $brandColor-1;
+}
+
+label, legend {
+  text-transform: none !important;
+  font-size: .7em!important;
+  font-weight: 400 !important;
+}
+
+p.smaller {
+  font-size: 0.8em;
+}

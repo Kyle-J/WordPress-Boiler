@@ -1,100 +1,141 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var watch = require('gulp-watch');
-var rename = require('gulp-rename');
-var gutil = require( 'gulp-util' );
-var minify_css = require('gulp-minify-css');
+var gulp = require('gulp'),
+    sass = require('gulp-sass'),
+    uglify = require('gulp-uglify'),
+    minify = require('gulp-minify-css'),
+    sourcemaps = require('gulp-sourcemaps'),
+    autoprefixer = require('autoprefixer-core'),
+    postcss = require('gulp-postcss'),
+    rename = require('gulp-rename'),
+    browserSync = require('browser-sync').create(),
+    watch = require('gulp-watch'),
+    gutil = require('gulp-util'),
+    jshint = require('gulp-jshint'),
+    notify = require('gulp-notify'),
+    concat = require('gulp-concat'),
+    imagemin = require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant'),
+    bless = require('gulp-bless');
 
-var jquery = require('gulp-jquery');
+var template_path = "./public_html/wp-content/themes/bootstrap/";
+var content_path = "./public_html/wp-content/";
 
-var jshint = require('gulp-jshint');
-var uglify = require('gulp-uglify');
-var notify = require('gulp-notify');
-var concat = require('gulp-concat');
-var sourcemaps = require('gulp-sourcemaps');
+var libraries_location = "./libraries";
 
-var imagemin = require('gulp-imagemin');
-var pngquant = require('imagemin-pngquant');
-
-var template_path = "./public_html/wp-content/themes/bootstrap/"
-
-var libraries_location = "./libraries"
-
-var scss_location = template_path + "scss";
-var stylesheets_location = template_path + "stylesheets";
 var scripts_location = template_path + "javascript";
 var coffee_location = template_path + "coffee";
 var images_source_location = template_path + "images_src";
 var images_output_location = template_path + "images";
 
+var plugins_path = "./public_html/wp-content/plugins/";
+
 var coffee = require('gulp-coffee');
 
-gulp.task('default', function() {
+function swallowError( error ) {
+
+    //If you want details of the error in the console
+    console.log(error.toString());
+
+    this.emit('end');
+}
+
+gulp.task('default', ['sass', 'scripts', 'watch:sass', 'watch:js']);
+
+gulp.task('serve', function () {
+
+    browserSync.init({
+        files: template_path + '/stylesheets/*.css',
+        proxy: 'www.myfinancepartner.dev',
+        browser: 'google chrome',
+        reloadDebounce: 2000
+    });
 
 });
 
-gulp.task('coffee', function() {
+gulp.task('coffee', function () {
 
-    gulp.src(coffee_location+'/*.coffee')
+    gulp.src(coffee_location + '/*.coffee')
         .pipe(coffee({bare: true}).on('error', gutil.log))
         .pipe(gulp.dest(scripts_location))
-        .pipe(notify({ message: 'Coffee task complete' }));
+        .pipe(notify({message: 'Coffee task complete'}));
 
 });
 
-gulp.task('loader', function(){
+gulp.task('loader', function () {
 
-    return gulp.src([libraries_location+'/loadjscss/loadjscss.js'])
+    return gulp.src([libraries_location + '/loadjscss/loadjscss.js'])
         .pipe(concat('loader.js'))
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
         .pipe(sourcemaps.write())
         .pipe(gulp.dest(scripts_location + '/min'))
-        .pipe(notify({ message: 'Loader scripts task complete' }));
+        .pipe(notify({message: 'Loader scripts task complete'}));
 
-})
+});
 
-gulp.task('scripts', function() {
+gulp.task('js', function () {
+
+    gulp.src(scripts_location + '/src/*.js')
+        .pipe(sourcemaps.init())
+        .pipe(rename({suffix: '.min'}))
+        .pipe(uglify()).on('error', swallowError)
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(scripts_location + '/min'))
+        .pipe(browserSync.stream())
+
+});
+
+gulp.task('scripts', function () {
 
     return gulp.src([
-
-        scripts_location+'/vendor/bootstrap.js',
-        scripts_location+'/toolkit.js',
-        scripts_location+'/*.js',
-        scripts_location+'/vendor/*.js'
-
-    ])
-
+            scripts_location + '/*.js',
+            scripts_location + '/vendor/*.js',
+            plugins_path + '*/assets/javascript/*.js'
+        ])
         .pipe(concat('main.js'))
         .pipe(rename({suffix: '.min'}))
         .pipe(uglify())
-        .pipe(sourcemaps.write())
         .pipe(gulp.dest(scripts_location + '/min'))
-        .pipe(notify({ message: 'Main script task complete' }));
+        .pipe(notify({message: 'Main script task complete'}));
 
 });
 
-gulp.task('sass', function() {
+gulp.task('sass', function () {
 
-    gulp.src(scss_location+'/print.scss')
-        .pipe(sass({ sourceComments: 'map' }))
-        //.pipe(gulp.dest(stylesheets_location))
-        .pipe(minify_css().on('error', gutil.log))
-        .pipe(rename({ extname: '.css' }))
-        .pipe(gulp.dest(stylesheets_location));
-
-
-    return gulp.src(scss_location+'/theme.scss')
-        .pipe(sass({ sourceComments: 'map' }))
-        //.pipe(gulp.dest(stylesheets_location))
-        .pipe(minify_css().on('error', gutil.log))
-        .pipe(rename({ extname: '.css' }))
-        .pipe(gulp.dest(stylesheets_location))
-        .pipe(notify({ message: 'Sass task complete' }));
+    return gulp.src([
+            template_path + 'scss/theme.scss',
+            plugins_path + '*/assets/scss/*.scss'
+        ])
+        .pipe(sourcemaps.init())
+        .pipe(sass()).on('error', swallowError)
+        .pipe(postcss([autoprefixer({browsers: ['last 2 versions']})])).on('error', swallowError)
+        .pipe(minify()).on('error', swallowError)
+        .pipe(concat('theme.css'))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(template_path + '/stylesheets'))
+        .pipe(notify({message: 'Sass standard task complete'}))
+        .pipe(bless())
+        .pipe(gulp.dest(template_path + '/stylesheets/split'))
+        .pipe(notify({message: 'Sass bless task complete'}))
 
 });
 
-gulp.task('images', function() {
+gulp.task('sass.alt', function () {
+
+    return gulp.src([
+            template_path + 'scss.alt/*.scss',
+        ])
+        .pipe(sourcemaps.init())
+        .pipe(sass()).on('error', swallowError)
+        .pipe(postcss([autoprefixer({browsers: ['last 2 versions']})])).on('error', swallowError)
+        .pipe(minify()).on('error', swallowError)
+        .pipe(concat('alt-styles.css'))
+        .pipe(sourcemaps.write('.'))
+        .pipe(gulp.dest(template_path + '/stylesheets'))
+        .pipe(notify({message: 'Sass task complete'}))
+
+});
+
+gulp.task('images', function () {
 
     return gulp.src(images_source_location + '/**')
 
@@ -103,13 +144,32 @@ gulp.task('images', function() {
             svgoPlugins: [{removeViewBox: false}],
             use: [pngquant()]
         }))
+        .on('error', gutil.log)
 
-        .pipe(gulp.dest(images_output_location));
+        .pipe(gulp.dest(images_output_location))
+        .on('error', gutil.log)
 });
 
-gulp.task('sass:watch', function () {
+gulp.task('uploads', function () {
 
-    gulp.watch(scss_location,'/theme.scss', ['sass']);
-    gulp.watch(scss_location,'/print.scss', ['sass']);
+    return gulp.src(content_path + 'uploads_src/**')
+
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()]
+        }))
+        .on('error', gutil.log)
+
+        .pipe(gulp.dest(content_path+'uploads/'))
+        .on('error', gutil.log)
+});
+
+gulp.task('watch:js', function () {
+    gulp.watch(template_path + '/javascript/src/*.js', ['js']);
+});
+
+gulp.task('watch:sass', function () {
+    gulp.watch(template_path + '/scss/*.scss', ['sass']);
 
 });

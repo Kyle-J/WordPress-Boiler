@@ -1,0 +1,47 @@
+@import '../scss/branding';
+.outdated-browser-container {
+
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: $backgroundColor-light;
+  z-index: 9999;
+  padding: 32px;
+
+  .outdated-browser-inner {
+
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+
+      h6 {
+        font-weight: bold;
+        font-size: 1.4em;
+        color: $brandColor-1;
+      }
+
+      p {
+        color: $brandColor-5;
+      }
+
+      a {
+        color: $brandColor-1;
+        &:hover {
+          text-decoration: underline;
+        }
+
+        &.close {
+          position: absolute;
+          top: -20px;
+          right: 0;
+          font-size: 200%;
+        }
+
+    }
+
+  }
+
+}

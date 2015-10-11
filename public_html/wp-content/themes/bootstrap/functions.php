@@ -11,15 +11,16 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 768;
 }
 
-//Add menu support and register main menu
-if ( function_exists( 'register_nav_menus' ) ) {
-  	register_nav_menus(
-  		array(
-  		  'main_menu' => 'Main Menu'
-  		)
-  	);
+function custom_initaliser() {
+	add_post_type_support( 'page', 'excerpt' );
 }
 
+// Add KScroll more link attribute
+add_filter('next_posts_link_attributes', 'posts_link_attributes_1');
+
+function posts_link_attributes_1() {
+	return 'class="kscroll-more"';
+}
 
 // filter the Gravity Forms button type
 add_filter("gform_submit_button", "form_submit_button", 10, 2);
@@ -151,4 +152,29 @@ if ( ! function_exists( 'bootstrap_setup' ) ):
 		}
  	}
 endif;
+
+function disable_wp_emojicons() {
+
+	// all actions related to emojis
+	remove_action( 'admin_print_styles', 'print_emoji_styles' );
+	remove_action( 'wp_head', 'print_emoji_detection_script', 7 );
+	remove_action( 'admin_print_scripts', 'print_emoji_detection_script' );
+	remove_action( 'wp_print_styles', 'print_emoji_styles' );
+	remove_filter( 'wp_mail', 'wp_staticize_emoji_for_email' );
+	remove_filter( 'the_content_feed', 'wp_staticize_emoji' );
+	remove_filter( 'comment_text_rss', 'wp_staticize_emoji' );
+
+	// filter to remove TinyMCE emojis
+	add_filter( 'tiny_mce_plugins', 'disable_emojicons_tinymce' );
+}
+add_action( 'init', 'disable_wp_emojicons' );
+
+function disable_emojicons_tinymce( $plugins ) {
+	if ( is_array( $plugins ) ) {
+		return array_diff( $plugins, array( 'wpemoji' ) );
+	} else {
+		return array();
+	}
+}
+
 ?>
