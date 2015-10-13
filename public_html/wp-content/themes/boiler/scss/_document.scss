@@ -1,0 +1,337 @@
+/** make sure these media query variables match bootstrap's */
+$xs-max: 767px;
+$sm-min: 768px;
+$sm-max: 991px;
+$md-min: 992px;
+$md-max: 1199px;
+$lg-min: 1200px;
+
+* {
+  border-radius: 0 !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.block {
+  display: block;
+}
+
+.top-0 {
+  margin-top: 0 !important;
+}
+
+.top-1 {
+  margin-top: 1px !important;
+}
+
+.top-2 {
+  margin-top: 2px !important;
+}
+
+.top-3 {
+  margin-top: 3px !important;
+}
+
+.top-4 {
+  margin-top: 4px !important;
+}
+
+.top-5 {
+  margin-top: 5px !important;
+}
+
+.top-10 {
+  margin-top: 10px !important;
+}
+
+.top-15 {
+  margin-top: 15px !important;
+}
+
+.top-20 {
+  margin-top: 20px !important;
+}
+
+.top-25 {
+  margin-top: 25px !important;
+}
+
+.top-30 {
+  margin-top: 30px !important;
+}
+
+.top-40 {
+  margin-top: 40px !important;
+}
+
+.top-45 {
+  margin-top: 45px !important;
+}
+
+.top-50 {
+  margin-top: 50px !important;
+}
+
+.top-60 {
+  margin-top: 60px !important;
+}
+
+.top-70 {
+  margin-top: 70px !important;
+}
+
+.top-80 {
+  margin-top: 80px !important;
+}
+
+.top-100 {
+  margin-top: 100px !important;
+}
+
+.bottom-0 {
+  margin-bottom: 0 !important;
+}
+
+.bottom-5 {
+  margin-bottom: 5px !important;
+}
+
+.bottom-10 {
+  margin-bottom: 10px !important;
+}
+
+.bottom-15 {
+  margin-bottom: 15px !important;
+}
+
+.bottom-20 {
+  margin-bottom: 20px !important;
+}
+
+.bottom-25 {
+  margin-bottom: 25px !important;
+}
+
+.bottom-30 {
+  margin-bottom: 30px !important;
+}
+
+.bottom-40 {
+  margin-bottom: 40px !important;
+}
+
+.bottom-50 {
+  margin-bottom: 50px !important;
+}
+
+.bottom-60 {
+  margin-bottom: 60px !important;
+}
+
+.bottom-100 {
+  margin-bottom: 100px !important;
+}
+
+.pad-bottom-10 {
+  padding-bottom: 10px !important;
+}
+
+.pad-bottom-15 {
+  padding-bottom: 15px !important;
+}
+
+.pad-bottom-20 {
+  padding-bottom: 20px !important;
+}
+
+.pad-bottom-25 {
+  padding-bottom: 25px !important;
+}
+
+.pad-bottom-30 {
+  padding-bottom: 30px !important;
+}
+
+.pad-bottom-40 {
+  padding-bottom: 40px !important;
+}
+
+.pad-bottom-50 {
+  padding-bottom: 50px !important;
+}
+
+.bottom-border {
+  border-bottom: 1px solid $cta-color;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50% !important;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+.bg-alternate {
+
+  &:nth-child(odd) {
+    background-color: $backgroundColor-light;
+  }
+
+  &.hidden {
+    background-color: $backgroundColor-dark;
+  }
+
+}
+
+.section {
+  padding: 50px 0;
+  clear: both;
+
+  &.no-padding {
+    padding: 0;
+  }
+
+  &.no-padding-top {
+    padding-top: 0;
+  }
+
+  &.no-padding-bottom {
+    padding-bottom: 0;
+  }
+}
+
+button:active, button:focus, span:focus, a.overlay-play:focus {
+  outline: none;
+}
+
+.btn {
+  background: none;
+
+  &.default {
+    padding: 10px 15px;
+    border: 1px solid $cta-color;
+    color: $cta-color;
+  }
+
+  &.dark {
+    padding: 10px 15px;
+    border: 1px solid $brandColor-3;
+    color: $brandColor-3;
+  }
+
+}
+
+.btn-reduced-padding {
+  padding: 12px 20px;
+}
+
+.circle {
+  border-radius: 50% !important;
+}
+
+dl {
+  line-height: 160%;
+}
+
+dt {
+  font-weight: bold;
+  line-height: 160%;
+}
+
+dd {
+  margin-bottom: 0;
+  display: block;
+  -webkit-margin-start: 40px;
+  line-height: 160%;
+}
+
+ol {
+  list-style: decimal;
+  margin-left: 1.5em;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 1.5em;
+}
+
+li {
+  line-height: 160%;
+  display: list-item;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  font-size: 0.9em;
+  width: 100%;
+  margin-bottom: 1.1em;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  display: table-cell;
+  vertical-align: inherit;
+  padding: 2%;
+  margin: 0;
+  overflow: visible;
+  line-height: 120%;
+}
+
+th {
+  background-color: $backgroundColor-light;
+  color: $brandColor-4;
+}
+
+.dotted-number {
+  background: $brandColor-5;
+  border-radius: 5em !important;
+  -moz-border-radius: 5em !important;
+  -webkit-border-radius: 5em !important;
+  color: $brandColor-3;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.6em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.alignright {
+  float: right;
+  margin: 0 0 20px 30px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}

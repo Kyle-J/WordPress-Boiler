@@ -22,6 +22,17 @@ function posts_link_attributes_1() {
 	return 'class="kscroll-more"';
 }
 
+//Add menu support and register main menu
+if ( function_exists('register_nav_menus') ) {
+	register_nav_menus(
+			array(
+					'main_menu'      => 'Top Main Navigation Area',
+					'secondary_menu' => 'Secondary Top Navigation Area',
+					'footer_menu'    => 'Footer Navigation Area',
+			)
+	);
+}
+
 // filter the Gravity Forms button type
 add_filter("gform_submit_button", "form_submit_button", 10, 2);
 function form_submit_button($button, $form){

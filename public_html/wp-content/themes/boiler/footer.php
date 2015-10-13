@@ -1,5 +1,5 @@
     <?php wp_footer(); ?>
-
+</div>
     <footer>
         <div class="container">
             <div class="row">
@@ -22,13 +22,10 @@
             </a>
             <?php wp_nav_menu( array('theme_location' => 'main_menu', 'menu_class' => 'nav navbar-nav', 'depth'=> 3, 'container'=> false, 'walker'=> new Bootstrap_Walker_Nav_Menu)); ?>
             <?php wp_nav_menu( array('theme_location' => 'secondary_menu', 'menu_class' => 'nav navbar-nav secondary-menu', 'depth'=> 3, 'container'=> false, 'walker'=> new Bootstrap_Walker_Nav_Menu)); ?>
-            <ul class="nav navbar-nav secondary-menu">
-                <li class="menu-telephone menu-item menu-item-type-custom menu-item-object-custom menu-item-80"><a href="tel:08000121388">0800 012 1388</a></li>
-            </ul>
         </div>
     </nav>
 
-</div>
+
 
 <div id="outdated" class="outdated-browser-container">
     <div class="outdated-browser-inner">

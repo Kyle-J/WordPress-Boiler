@@ -16,7 +16,7 @@ var gulp = require('gulp'),
     pngquant = require('imagemin-pngquant'),
     bless = require('gulp-bless');
 
-var template_path = "./public_html/wp-content/themes/bootstrap/";
+var template_path = "./public_html/wp-content/themes/boiler/";
 var content_path = "./public_html/wp-content/";
 
 var libraries_location = "./libraries";
