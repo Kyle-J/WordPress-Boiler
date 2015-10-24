@@ -1,12 +1,12 @@
 {
-  "name": "Ladram Bay",
-  "version": "0.0.0",
+  "name": "WordPress Boiler",
+  "version": "0.0.§",
   "authors": [
-    "Ian Barker <ian@theorganicagency.com>"
+    "Kyle James <kyle@56kilobit.com>"
   ],
-  "description": "Ladram Bay wordpress website",
-  "license": "MIT",
-  "homepage": "http://www.ladrambay.co.uk",
+  "description": "56 Kilobit WordPress Boiler Install",
+  "license": "GNU",
+  "homepage": "https://github.com/Kyle-J/WordPress-Boiler",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -15,7 +15,6 @@
     "tests"
   ],
   "dependencies": {
-    "owl.carousel": "OwlCarousel2#~2.0.0-beta.3",
     "jquery": "~2.1.4",
     "responsive-bootstrap-toolkit": "responsive-toolkit#~2.5.0",
     "jasny-bootstrap": "~3.1.3",

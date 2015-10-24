@@ -14,6 +14,8 @@ This package is a boilerplate project for WordPress sites.
 > Striped down 'barebones' template
 > Default robots.txt
 > Default .gitignore
+> Disabled XMLRPC Security Patch
+> Disable WordPress Emjois JS
 > Other cool things
 
 Setup

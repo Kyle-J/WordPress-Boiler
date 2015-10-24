@@ -87,8 +87,14 @@ gulp.task('js', function () {
 gulp.task('scripts', function () {
 
     return gulp.src([
+            template_path + 'bower_components/bootstrap-sass/assets/javascripts/bootstrap.js',
+            template_path + 'bower_components/jasny-bootstrap/dist/js/jasny-bootstrap.js',
+            template_path + 'bower_components/responsive-bootstrap-toolkit/dist/bootstrap-toolkit.js',
+            template_path + 'bower_components/jquery-validation/dist/jquery.validate.js',
+            template_path + 'bower_components/jquery-validation/dist/additional-methods.js',
+            template_path + 'bower_components/slick-carousel/slick/slick.js',
             scripts_location + '/*.js',
-            scripts_location + '/vendor/*.js',
+            scripts_location + '/scripts/*.js',
             plugins_path + '*/assets/javascript/*.js'
         ])
         .pipe(concat('main.js'))
