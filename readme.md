@@ -90,6 +90,7 @@ Update Log
 -----------------
 
 > Added Headers filter to remove the X-Pingback header. This is a red flag for attackers.
+> Changed to using bower components for theme assets.
 
 11th October 2015
 -----------------
