@@ -8,3 +8,5 @@ vendor
 
 # Word Press Stuff
 public_html/wp-content/uploads
+
+bower_components
