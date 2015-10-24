@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40976de9-8dd6-4e70-8b75-4fa5aea73f5b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/elements.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/stylesheets/split/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/stylesheets/split/theme.css-blessed1.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/stylesheets/split/theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/stylesheets/theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/stylesheets/theme.css.map" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/.gitignore" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/.gitignore" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/comments.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/comments.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/css/bootstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/footer.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/footer.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/functions.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/functions.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/header.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/header.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/images/logos/identity_x1.png" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/images/logos/identity_x1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/images_src/logos/identity_x1.png" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/images_src/logos/identity_x1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/index.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/index.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/min/main.min.js" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/javascript/min/main.min.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/readme.md" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/readme.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_branding.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_branding.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_document.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_document.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_elements.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_elements.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_footer.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_footer.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_forms.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_forms.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_header.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_header.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_mixins.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_mixins.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_mobile.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_mobile.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_offcanvas.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_offcanvas.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_outdated.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_outdated.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_pages.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_pages.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_posts.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_posts.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/_typography.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_typography.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/scss/theme.scss" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/theme.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/style.css" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/functions.php" afterPath="$PROJECT_DIR$/public_html/wp-content/themes/boiler/functions.php" />
     </list>
     <ignored path="ladram.co.uk.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,18 +29,28 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.041667">
+            <state vertical-scroll-proportion="0.0">
               <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9607844">
-              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.690367">
+              <caret line="207" column="20" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_mobile.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_mobile.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -90,7 +59,7 @@
       <file leaf-file-name="_typography.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_typography.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.25">
+            <state vertical-scroll-proportion="0.0">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
@@ -117,20 +86,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/style.css">
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elements.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="elements.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/elements.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.93520516">
+            <state vertical-scroll-proportion="0.0">
               <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
               <folding>
                 <element signature="e#6#39#0#PHP" expanded="true" />
@@ -161,16 +130,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/theme.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -194,7 +153,6 @@
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/ladram/style.css" />
         <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/public_html/wp-config.php" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/vendor/d_validator_overrides.js" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/vendor/g_carousel_initalisers.js" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/bootstrap/javascript/vendor/i_kscroll.js" />
@@ -215,8 +173,9 @@
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/boiler/footer.php" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/boiler/header.php" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_document.scss" />
-        <option value="$PROJECT_DIR$/public_html/wp-content/themes/boiler/functions.php" />
         <option value="$PROJECT_DIR$/public_html/wp-content/themes/boiler/elements.php" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/public_html/wp-content/themes/boiler/functions.php" />
       </list>
     </option>
   </component>
@@ -237,7 +196,6 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="10" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="848" />
@@ -268,6 +226,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -366,39 +325,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ladram.co.uk" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WordPress-Boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public_html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wp-content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="themes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="boiler" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scss" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,7 +334,6 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="FullScreen" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -468,11 +395,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="10" y="23" width="1440" height="848" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32689556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33547926" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -523,7 +450,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -580,13 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.807537">
           <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_mobile.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -688,13 +607,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/javascript/vendor/b_bootstrap.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -755,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,21 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="84.541664">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <marker date="1444590510000" expanded="true" signature="46360:46542" placeholder="SELECT YEAR(..." />
-            <marker date="1444590510000" expanded="true" signature="47323:47458" placeholder="SELECT YEAR(..." />
-            <marker date="1444590510000" expanded="true" signature="48112:48356" placeholder="SELECT YEAR(..." />
-            <marker date="1444590510000" expanded="true" signature="49213:49451" placeholder="SELECT DISTI..." />
-            <marker date="1444590510000" expanded="true" signature="50779:50837" placeholder="SELECT * FRO..${$wpdb-&gt;posts}..." />
-            <marker date="1444590510000" expanded="true" signature="53235:53330" placeholder="SELECT 1 as ..${$wpdb-&gt;posts}..." />
-            <marker date="1444590510000" expanded="true" signature="54549:54763" placeholder="SELECT MONTH..." />
-            <marker date="1444590510000" expanded="true" signature="54792:55023" placeholder="SELECT MONTH..." />
-            <marker date="1444590510000" expanded="true" signature="55199:55327" placeholder="..." />
-            <marker date="1444590510000" expanded="true" signature="55321:55327" placeholder="..." />
-            <marker date="1444590510000" expanded="true" signature="55754:55760" placeholder="..." />
-            <marker date="1444590510000" expanded="true" signature="56541:56547" placeholder="..." />
-            <marker date="1444590510000" expanded="true" signature="56640:56875" placeholder="SELECT DISTI..${$wpdb-&gt;posts}..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -825,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,15 +728,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gulpfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,17 +757,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9607844">
-          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_typography.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
+        <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
@@ -889,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.041667">
+        <state vertical-scroll-proportion="0.0">
           <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
           <folding />
         </state>
@@ -897,11 +775,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/elements.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.93520516">
+        <state vertical-scroll-proportion="0.0">
           <caret line="55" column="14" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
           <folding>
             <element signature="e#6#39#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gulpfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/scss/_mobile.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public_html/wp-content/themes/boiler/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.690367">
+          <caret line="207" column="20" selection-start-line="207" selection-start-column="20" selection-end-line="207" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>

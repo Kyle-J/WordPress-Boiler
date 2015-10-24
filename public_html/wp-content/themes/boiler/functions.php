@@ -188,4 +188,24 @@ function disable_emojicons_tinymce( $plugins ) {
 	}
 }
 
+function my_theme_wrapper_start() {
+	echo '<section id="shop_content" class="container">';
+}
+
+function my_theme_wrapper_end() {
+	echo '</section>';
+}
+
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+	add_theme_support( 'woocommerce' );
+}
+
+// disable XMLRPC
+add_filter('xmlrpc_enabled', '__return_false');
+add_filter('wp_headers', function ( $headers ) {
+	unset($headers['X-Pingback']);
+    return $headers;
+});
+
 ?>
