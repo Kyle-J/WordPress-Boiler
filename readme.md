@@ -79,3 +79,17 @@ Credit Where Credit Is Due
 ==========================
 
 >  http://3sparks.net/ - For the base of the bootstrap theme.
+
+
+Update Log
+==========
+
+24th October 2015
+-----------------
+
+> Added Headers filter to remove the X-Pingback header. This is a red flag for attackers.
+
+11th October 2015
+-----------------
+
+> Added boiler logo and SCSS files layout.
