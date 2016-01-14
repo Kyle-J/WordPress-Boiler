@@ -44,7 +44,7 @@ gulp.task('serve', function () {
 
     browserSync.init({
         files: template_path + '/stylesheets/*.css',
-        proxy: 'www.myfinancepartner.dev',
+        proxy: 'www.boilderplate.dev',
         browser: 'google chrome',
         reloadDebounce: 2000
     });
